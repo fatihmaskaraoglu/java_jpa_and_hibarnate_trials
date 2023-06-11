@@ -1,0 +1,1 @@
+# java_jpa_and_hibarnate_trials
