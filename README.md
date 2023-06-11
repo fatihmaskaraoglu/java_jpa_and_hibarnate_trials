@@ -8,7 +8,10 @@ URLs:
 http://localhost:8080/h2-console/login.do
 
 Login infos:
+
 ![image](https://github.com/fatihmaskaraoglu/java_jpa_and_hibarnate_trials/assets/8976615/acf35393-bbd4-4b12-aad5-b5b0a343cbaa)
+
+
 
 
 application.properties:
