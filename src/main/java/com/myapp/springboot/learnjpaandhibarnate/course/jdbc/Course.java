@@ -1,4 +1,4 @@
-package com.myapp.springboot.learnjpaandhibarnate.course;
+package com.myapp.springboot.learnjpaandhibarnate.course.jdbc;
 
 public class Course {
 
