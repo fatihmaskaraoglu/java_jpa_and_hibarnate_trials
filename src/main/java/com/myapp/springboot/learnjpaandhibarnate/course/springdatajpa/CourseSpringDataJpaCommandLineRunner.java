@@ -22,5 +22,11 @@ public class CourseSpringDataJpaCommandLineRunner implements CommandLineRunner {
         courseSpringDataJpaRepository.deleteById(1L);
 
         System.out.println(courseSpringDataJpaRepository.findById(2L));
+
+        System.out.println(courseSpringDataJpaRepository.findAll());
+        System.out.println(courseSpringDataJpaRepository.count());
+        System.out.println(courseSpringDataJpaRepository.findByAuthor("myapp"));
+        System.out.println(courseSpringDataJpaRepository.findByAuthor("me"));
+        System.out.println(courseSpringDataJpaRepository.findByName("Learn JPA2"));
     }
 }
