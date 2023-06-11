@@ -16,9 +16,9 @@ Login infos:
 
 application.properties:
 
--logging.level.org.springframework=info
--management.endpoints.web.exposure.include=*
--spring.h2.console.enabled=true
--spring.datasource.url=jdbc:h2:mem:testdb
--spring.jpa.defer-datasource-initialization=true
+-logging.level.org.springframework=info<br />
+-management.endpoints.web.exposure.include=*<br />
+-spring.h2.console.enabled=true<br />
+-spring.datasource.url=jdbc:h2:mem:testdb<br />
+-spring.jpa.defer-datasource-initialization=true<br />
 
