@@ -4,7 +4,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
 @Entity(name="Course")
-public class CourseJPA {
+public class CourseJpa {
     @Id
     private long id;
     //@Column(name = "name") no need bcs same name
@@ -36,10 +36,10 @@ public class CourseJPA {
         this.author = author;
     }
 
-    public CourseJPA() {
+    public CourseJpa() {
     }
 
-    public CourseJPA(long id, String name, String author) {
+    public CourseJpa(long id, String name, String author) {
         this.id = id;
         this.name = name;
         this.author = author;

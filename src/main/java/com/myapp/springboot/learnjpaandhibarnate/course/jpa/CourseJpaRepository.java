@@ -1,6 +1,5 @@
 package com.myapp.springboot.learnjpaandhibarnate.course.jpa;
 
-import com.myapp.springboot.learnjpaandhibarnate.course.jdbc.Course;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import jakarta.transaction.Transactional;
@@ -12,16 +11,16 @@ public class CourseJpaRepository {
     @PersistenceContext
     private EntityManager entityManager;
 
-    public void insert(CourseJPA course){
+    public void insert(CourseJpa course){
         entityManager.merge(course);
     }
 
-    public CourseJPA findById(Long id){
-        return entityManager.find(CourseJPA.class, id);
+    public CourseJpa findById(Long id){
+        return entityManager.find(CourseJpa.class, id);
     }
 
     public void deleteById(Long id){
-        CourseJPA course =  entityManager.find(CourseJPA.class, id);
+        CourseJpa course =  entityManager.find(CourseJpa.class, id);
         entityManager.remove(course);
     }
 }
